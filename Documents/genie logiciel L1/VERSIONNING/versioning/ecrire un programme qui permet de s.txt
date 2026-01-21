@@ -1,0 +1,13 @@
+ecrire un programme qui permet de saisir n entier positif, le programme determine et affiche 
+1-la moyenne des entiers paires 
+2-le nombre d'entiers impaires 
+3- la somme des entiers  négatifs
+
+
+int n , i ;
+do{
+    printf("saisir un entier positif : ");
+    scanf("%d",&n);
+}while(n<=0);
+for(i=1 ; i<=n ; i+=2){
+           moy = 
